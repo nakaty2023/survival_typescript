@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
- 
+
 function App() {
   return (
     <div className="App">
@@ -10,9 +10,10 @@ function App() {
     </div>
   );
 }
- 
+
 function LikeButton() {
-  return <span>いいねボタン予定地</span>;
+  const count = 999;
+  return <span className="likeButton">♥ {count}</span>;
 }
- 
+
 export default App;
