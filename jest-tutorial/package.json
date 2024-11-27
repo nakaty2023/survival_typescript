@@ -1,4 +1,7 @@
 {
   "name": "jest-tutorial",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
 }
